@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="practice" type="wall_follower.py" name="wall_follower" output="screen">
+    </node>
+</launch>

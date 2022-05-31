@@ -11,7 +11,7 @@ from geometry_msgs.msg import PoseWithCovarianceStamped
 
 '''
 1. Wall Follower
-2. on "ctrl+c" ->  on SLAM and NAV
+2. Upon shutdown, it pose from Odom and Amcl is printed.
 '''
  
 np.set_printoptions(precision=2)

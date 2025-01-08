@@ -8,7 +8,7 @@ from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal
 
 def movebase_client():
 
-    client = actionlib.SimpleActionClient('move_base', MoveBaseAction)
+    client = actionlib.SimpleActionClient("move_base", MoveBaseAction)
     client.wait_for_server()
 
     goal = MoveBaseGoal()
@@ -27,9 +27,9 @@ def movebase_client():
         return client.get_result()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     try:
-        rospy.init_node('movebase_client_py')
+        rospy.init_node("movebase_client_py")
         result = movebase_client()
         if result:
             rospy.loginfo("Goal execution done!")

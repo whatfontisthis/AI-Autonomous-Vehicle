@@ -4,7 +4,7 @@ import rospy
 from nav_msgs.msg import Odometry
 from geometry_msgs.msg import PoseWithCovarianceStamped
 
-#AMCL_received = False
+# AMCL_received = False
 odom_x = odom_y = odom_z = amcl_x = amcl_y = amcl_z = 0
 
 
@@ -25,10 +25,10 @@ def callback_odom(odom_pose):
     odom_z = round(odom_pose.pose.pose.position.z, 3)
 
     global AMCL_received
-    #if AMCL_received:
+    # if AMCL_received:
     print("Odom: x = {}  y = {}  z = {}".format(odom_x, odom_y, odom_z))
-        #difference()
-        #AMCL_received = False
+    # difference()
+    # AMCL_received = False
 
 
 def callback_amcl(amcl_pose):
@@ -38,15 +38,15 @@ def callback_amcl(amcl_pose):
     amcl_z = round(amcl_pose.pose.pose.position.z, 3)
 
     global AMCL_received
-    #if amcl_pose:
+    # if amcl_pose:
     print("Amcl: x = {}  y = {}  z = {}".format(amcl_x, amcl_y, amcl_z))
-        #AMCL_received = True
+    # AMCL_received = True
 
 
 def listener():
-    rospy.init_node('get_pose', anonymous=True)
-    rospy.Subscriber('/odom', Odometry, callback_odom)
-    rospy.Subscriber('/amcl_pose', PoseWithCovarianceStamped, callback_amcl)
+    rospy.init_node("get_pose", anonymous=True)
+    rospy.Subscriber("/odom", Odometry, callback_odom)
+    rospy.Subscriber("/amcl_pose", PoseWithCovarianceStamped, callback_amcl)
 
     rospy.spin()
 

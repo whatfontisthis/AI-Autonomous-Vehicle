@@ -73,20 +73,20 @@ This project was developed to enhance museum visitor experiences by providing se
 ## **Example Demonstrations**
 
 - **TurtleBot3 Simulation**:
-  ![Simulation](https://github.com/dstjr2434/ros_git/raw/master/photo-doc/simul.gif)
+  ![Simulation](https://github.com/whatfontisthis/AI-Autonomous-Vehicle/raw/main/imgs/simul.gif)
 
 - **SLAM Implementation**:
-  ![SLAM](https://github.com/dstjr2434/ros_git/raw/master/photo-doc/SLAM.gif)
+  ![SLAM](https://github.com/whatfontisthis/AI-Autonomous-Vehicle/raw/main/imgs/SLAM.gif)
 
 - **Wall-Following Algorithm**:
-  ![Wall Follower](https://github.com/dstjr2434/ros_git/raw/master/photo-doc/wallFollow.gif)
+  ![Wall Follower](https://github.com/whatfontisthis/AI-Autonomous-Vehicle/raw/main/imgs/wallFollow.gif)
 
 - **Move to Destination**:
-  ![Move](https://github.com/dstjr2434/ros_git/raw/master/photo-doc/godestination.gif)
+  ![Move](https://github.com/whatfontisthis/AI-Autonomous-Vehicle/raw/main/imgs/godestination.gif)
 
 - **GUI Implementation**:
-  ![GUI 1](https://github.com/dstjr2434/ros_git/raw/master/photo-doc/gui1.gif)
-  ![GUI 2](https://github.com/dstjr2434/ros_git/raw/master/photo-doc/gui2.gif)
+  ![GUI 1](https://github.com/whatfontisthis/AI-Autonomous-Vehicle/raw/main/imgs/gui1.gif)
+  ![GUI 2](https://github.com/whatfontisthis/AI-Autonomous-Vehicle/raw/main/imgs/gui2.gif)
 
 ---
 
@@ -96,8 +96,8 @@ This project was developed to enhance museum visitor experiences by providing se
    - Repository for code management and collaboration.  
 
 2. **Notion**:  
-   - [Task Management](https://funny-tracker-34e.notion.site/574ceb7ae62143b3847b295002abf0e2)  
-   - [Issue Tracking](https://funny-tracker-34e.notion.site/924096c581d643c78881fb4c7dbbb3f5)
+   - [Task Management]
+   - [Issue Tracking](https://github.com/whatfontisthis/AI-Autonomous-Vehicle/raw/main/imgs/issues.png)
 
 3. **Slack**:  
    - Daily development logs and discussions.  

@@ -96,8 +96,8 @@ This project was developed to enhance museum visitor experiences by providing se
    - Repository for code management and collaboration.  
 
 2. **Notion**:  
-   - [Task Management]
-   - [Issue Tracking](https://github.com/whatfontisthis/AI-Autonomous-Vehicle/blob/main/imgs/issues.png)
+   - Task Management and Issues Tracking
+   ![Issue Tracking](https://github.com/whatfontisthis/AI-Autonomous-Vehicle/blob/main/imgs/issues.png)
 
 3. **Slack**:  
    - Daily development logs and discussions.  

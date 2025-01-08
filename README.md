@@ -97,7 +97,7 @@ This project was developed to enhance museum visitor experiences by providing se
 
 2. **Notion**:  
    - [Task Management]
-   - [Issue Tracking](https://github.com/whatfontisthis/AI-Autonomous-Vehicle/raw/main/imgs/issues.png)
+   - [Issue Tracking](https://github.com/whatfontisthis/AI-Autonomous-Vehicle/blob/main/imgs/issues.png)
 
 3. **Slack**:  
    - Daily development logs and discussions.  
